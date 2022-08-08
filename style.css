@@ -1,0 +1,83 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    margin-top: 8%;
+}
+
+.flex div {
+    width: 25%;
+    height: 100%;
+}
+
+.sedan {
+    background-color: rgb(227, 170, 65);
+    border-radius: 10px 0px 0px 10px;
+    padding: 50px; 
+}
+
+.suv {
+    background-color: rgb(121, 140, 147);
+    padding: 50px;
+}
+
+.luxury {
+    background-color: rgb(19, 19, 81);
+    padding: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.flex div h1 {
+    color: white;
+}
+
+.flex div p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+}
+
+#sedanButton {
+    background-color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(227, 170, 65);
+    font-size: 18px;
+    margin-top: 8%;
+    position: absolute;
+}
+
+#suvButton {
+    background-color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(121, 140, 147);
+    font-size: 18px;
+    margin-top: 8%;
+    position: absolute;
+}
+
+#luxuryButton {
+    background-color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(19, 19, 81);
+    font-size: 18px;
+    margin-top: 8%;
+    position: absolute;
+}
